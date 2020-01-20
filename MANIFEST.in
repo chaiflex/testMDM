@@ -1,0 +1,4 @@
+include *.in *.md *.py
+recursive-include bin *.sh *.js 
+recursive-include core *.sh *.js *.md *.cfg
+
