@@ -16,6 +16,7 @@ WORKDIR /app
 COPY dist/countOccurence-*.egg /app/countOccurence.egg
 RUN python3 -m easy_install /app/countOccurence.egg && rm /app/countOccurence.egg
 
+ENV STRINGS_TEST aba,baba,aba,xzxb
 ######## Copy from egg the default file to use ########
 
 # core file

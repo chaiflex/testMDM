@@ -36,7 +36,7 @@ How to run
 The library countOccurence
 
 ```shell
-> python3 countOccurence.py [QUERIES]
+> python3 main.py [QUERIES]
 ```
 
 Data description
@@ -62,4 +62,4 @@ __1. Usage__
 The main purpose of the script is to be use with gcp as part of Kuberetes deployment.
 User can use the library by cloning the git repository:
 
-__https://git.connecthings.com/data/__
+__https://github.com/chaiflex/testMDM__
