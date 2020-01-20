@@ -15,7 +15,7 @@ class Main():
 
     def create_sysargv(self, ):
         """ 
-            create fake call of current script for testing
+            create testing sys argv environmentfor testing
         """
         sys.argv = [
             "motion-processing",
@@ -23,6 +23,9 @@ class Main():
         ]
 
     def runMain(self, ):
+        """
+            initialize and run CountOccurence
+        """
         if len(sys.argv) < 2:
             self.create_sysargv()
 

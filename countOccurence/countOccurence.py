@@ -16,7 +16,7 @@ class CountOccurence():
                 queries : an array of query strings 
             
             Output:
-                Return list of occurence
+                Return dict of occurence
         """
 
         list_occ = [input_string.count(current_string) for current_string in queries]
@@ -24,6 +24,16 @@ class CountOccurence():
 
 
     def splitInputFormat(self, queries: list):
+        """ 
+            Print the result of matchingStrings
+
+            Input:
+                queries : an array of query strings 
+
+            Output:
+                None
+        """
+        
         def getSize(queries ):
             return len(self.strings), len(queries)
         size_input_string, size_queries = getSize(queries, )
