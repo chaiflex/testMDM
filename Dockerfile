@@ -26,4 +26,4 @@ COPY main.py main.py
 RUN rm -rf /var/lib/apt/lists/*
 
 ######## Set entrypoint to python with a cmd by default [run multi process motion processing] ########
-CMD exec /bin/sh -c "sleep 1000000000000"
+CMD exec /bin/bash -c "sleep 1000000000000"
