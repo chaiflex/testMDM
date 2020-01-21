@@ -31,4 +31,3 @@ activity.*
 *.ipynb_checkpoints
 *.orig
 *.jar
-*.egg
